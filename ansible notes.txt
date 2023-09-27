@@ -1,0 +1,29 @@
+"open vmware connect to devops & devops2
+devops - linux password
+devops2- linux1 password
+open putty load ansible for devops2
+open putty open devops for devops  "
+
+
+
+" root@localhost first u can see
+enter hostname ansibleserver & enter sudo -i u can 
+root@ansibleserver 
+enter su - ansibleadm u can see ansibleadm@
+ansibleserver 
+enter cd /etc/ansible u can see root@ansibleserver ansible 
+enter su - ansibleadm direct u can see ansibleadm
+@localhost "
+
+In ansible server we can write playbooks using yaml scripting 
+and executed here and it reflects in host machine
+
+remote systmes is  host machine
+
+docker - developer will write the docker file & upload it in the docker registry.It will maintain the consistency of the application .
+Developer will write the code.Docker file will be configured and  developer will build the image, when we  run the image it will become container.
+Inside the container our applications are there 
+Docker image is uploaded  into the docker hub.
+Devops engineer will connect to docker hub and download the docker image and then deploy into staging/testing environment 
+Docker file-written by developer
+docker image is uploaded in to docker registry by devops engineer -> registry.hub.docker.com
